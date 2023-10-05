@@ -1,0 +1,69 @@
+.login-form-container .header-text,
+.login-form-container .footer-text,
+.login-form-container label {
+  background-color: black;
+  color: white;
+}
+
+.login-form-container .header-text,
+.login-form-container .footer-text {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: "Times New Roman";
+}
+
+.login-form-container .header-text {
+  padding: 1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.login-form-container .header-text * {
+  text-align: center;
+  margin: 0;
+}
+
+.login-form-container .footer-text {
+  grid-column: 1 / span 2;
+  padding: 0.5rem 1rem;
+  letter-spacing: 0.5rem;
+}
+
+.login-form-container {
+  background-color: hsl(133, 17%, 47%);
+  display: grid;
+  grid-template-columns: min-content auto;
+  padding: 2rem;
+  row-gap: 0.5rem;
+  column-gap: 1rem;
+}
+
+.login-form-container .login-form {
+  background-color: hsl(7, 63%, 45%);
+  border-top-right-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 30px;
+}
+
+.login-form-container .login-form .username {
+  transform: rotate(-5deg);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.login-form-container .login-form .password {
+  transform: rotate(5deg);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.login-form-container .login-form .remember-me {
+}
+
+.login-form-container .login-form .submit {
+}
