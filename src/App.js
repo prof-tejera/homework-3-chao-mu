@@ -19,8 +19,6 @@ const colors = [
   "salmon",
 ];
 
-const defaultColor = colors[0];
-
 const App = () => {
   const [fruit, setFruit] = useState(fruits[0]);
   const [colorIdx, setColorIdx] = useState(0);

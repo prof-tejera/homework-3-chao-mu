@@ -44,7 +44,7 @@
   border-top-right-radius: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   gap: 30px;
 }
 
@@ -52,14 +52,14 @@
   transform: rotate(-5deg);
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
 }
 
 .login-form-container .login-form .password {
   transform: rotate(5deg);
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
 }
 
 .login-form-container .login-form .remember-me {
