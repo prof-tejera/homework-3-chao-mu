@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/homework-3-chao-mu/static/css/main.0701d6ee.css",
+    "main.js": "/homework-3-chao-mu/static/js/main.9cc2af47.js",
+    "index.html": "/homework-3-chao-mu/index.html",
+    "main.0701d6ee.css.map": "/homework-3-chao-mu/static/css/main.0701d6ee.css.map",
+    "main.9cc2af47.js.map": "/homework-3-chao-mu/static/js/main.9cc2af47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0701d6ee.css",
+    "static/js/main.9cc2af47.js"
+  ]
+}
